@@ -3,47 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>RY Paris</title>
 </head>
 <body>
     <div class="container">
-        <header class="navBar">
-            <img src="./images/ryparis-logo.png" alt="">
-            <ul>
-                <li>Popular Recipes</li>
-                <li>What's New</li>
-                <li>Categories</li>
-                <li>Meal Ideas</li>
+        <header class="navbar">
+            <img src="./images/ryparis-logo.png" alt="RY-PARIS-LOGO">
+            <ul class="topnav">
+                <li><a href="#">Popular Recipes</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Meal Ideas</a></li>
             </ul>
         </header>
-        <div class="bannerImage">
-            <img src="./images/hero-image.jpg" alt="charcuterie-board-with-wine-and-utensils">
-            <h2>Start The Week Off Right</h2>
+        <div class="bannerimage">
+            <img class="heroimage" src="./images/hero-image.jpg" alt="charcuterie-board-with-wine-and-utensils">
+            <h2 class="textoverlay">Start The Week Off Right</h2>
         </div>
-        <div class="everydayCategories">
+        <div class="everydaycategories">
             <h2>Everyday Categories</h2>
             <p>
                 Everyday Food has developed recipes with the home cook in mind. These delicious dishes featured on "RY Paris" call for simple ingredients
                 that you already have in your pantry of can easily find at local grocery stores and farmer's markets.
             </p>
-            <div class="bldImageDisplay">
+            <div class="bldgallery">
                 <img src="./images/breakfast-ideas.jpg" alt="breakfast-ideas-sausage-eggs-beans-bacon-roasted-tomatoes-toast-coffe">
                 <img src="./images/vegetarian-ideas.jpg" alt="vegetarian-ideas-colorful-quinoa-salad-with-lemon-tomato-carrot-cucumber">
                 <img src="./images/cold-weather-dinners.jpeg" alt="cold-weather-dinners-ideas-steak-and-potatoes-with-gravy">
             </div>
         </div>
-        <div class="healthyRecipes">
+        <div class="healthyrecipes">
             <h2>Healthy Recipes of the Week</h2>
             <p>This weeks top award winners to critically-acclaimed recipe gems, check out these original recipes form home cook and professional chefs around the country.</p>
-            <div class="healthImageDisplay">
-                <img src="./images/fajita-peppers.jpeg" alt="fajita-peppers">
-                <img src="./images/muffins.jpeg" alt="breakfast-muffins">
-                <img src="./images/eggplant-parmesan.jpg" alt="eggplant-parmesan">
-                <img src="./images/eggplant-parmesan.jpg" alt="should-be-teriyaki-chicken">
+            <div class="healthgallery">
+                <div class="healthitem">
+                    <img src="./images/fajita-peppers.jpeg" alt="fajita-peppers">
+                    <p>Fajita-Stuffed Peppers</p>
+                </div>
+                <div class="healthitem">
+                    <img src="./images/muffins.jpeg" alt="breakfast-muffins">
+                    <p>Ree's Breakfast Muffins</p>
+                </div>
+                <div class="healthitem">
+                    <img src="./images/eggplant-parmesan.jpg" alt="eggplant-parmesan">
+                    <p>Eggplant Parmesan</p>
+                </div>
+                <div class="healthitem">
+                    <img src="./images/eggplant-parmesan.jpg" alt="should-be-teriyaki-chicken">
+                    <p>Teriyaki Chicken Thighs</p>
+                </div>
             </div>
         </div>
-        <div class="whereToEat">
+        <div class="wheretoeat">
             <h2>Where To Eat</h2>
             <p>
                 This is not the aspirational fluff of Instagram wall neon; it's fact. Recent surveys have shown that a majority of travelers consider food first when planning a trip, 
@@ -55,14 +70,14 @@
                 we're continually on the lookout for something new to fill our bellies, our passports, and our feeds. 
             </p>
         </div>
-        <div class="whereImageDisplay">
+        <div class="wheregallery">
             <img src="./images/burger.jpg" alt="delcious-burger">
             <img src="./images/pizza.jpeg" alt="delicate-pizza">
             <img src="./images/pizza.jpeg" alt="should-be-lobster">
         </div>
         <footer>
             <h6>Copyright 2020 RY Paris</h6>
-            <ul class="bottomNav">
+            <ul class="bottomnav">
                 <li>Site Map</li>
                 <li>Privacy Policy</li>
                 <li>About</li>

@@ -1,4 +1,99 @@
 html, body {
     padding: 0px;
     margin: 0px;
+    font-family: 'Poppins';
+}
+
+.container{
+
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    margin-bottom: 2px;
+    background-color: #FBC116;
+}
+
+img{
+    display: inline;
+}
+
+.navbar > ul{
+    list-style: none;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar > ul > li > * {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+.bannerimage{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    height: 70vh;
+}
+
+.heroimage{
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+
+.textoverlay{
+    position: absolute;
+    bottom: 150px;
+    background-color: #FFFFFF;
+    padding: 15px;
+}
+
+.everydaycategories{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+}
+
+.bldgallery{
+    display: flex;
+}
+
+.bldgallery > *{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.healthyrecipes{
+    display: flex;
+    flex-direction: column;
+    background-color: #dddddd;
+    padding: 50px 100px;
+}
+
+.healthgallery{
+    display: flex;
+    justify-content: space-between;
+}
+
+.healthitem{
+    width: 300px;
+    height: 400px;
+    background-color: blue;
+    overflow: hidden; /* Hides overflow */
+}
+
+.healthitem > img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Crops the image if necessary */
+    flex-shrink: 0; /* Prevents the image from shrinking */
 }
