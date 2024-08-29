@@ -4,11 +4,12 @@ html, body {
     font-family: 'Poppins';
 }
 
-.container{
-
+.container > * {
+    padding: 50px 100px;
 }
 
 .navbar{
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -18,14 +19,10 @@ html, body {
     background-color: #FBC116;
 }
 
-img{
-    display: inline;
-}
-
 .navbar > ul{
     list-style: none;
-    width: 30%;
     display: flex;
+    gap: 65px;
     justify-content: space-between;
 }
 
@@ -35,26 +32,34 @@ img{
     font-size: larger;
 }
 
+h2{
+    padding: 0;
+    margin: 0;
+}
+
 .bannerimage{
     position: relative;
     display: flex;
-    align-items: center;
     justify-content: center;
     overflow: hidden;
     width: 100%;
-    height: 70vh;
+    height: 80vh;
+    padding: 0px;
 }
 
 .heroimage{
     width: 100%;
     object-fit: cover;
     object-position: top;
+}
 
 .textoverlay{
     position: absolute;
-    bottom: 150px;
+    bottom: 125px;
     background-color: #FFFFFF;
-    padding: 15px;
+    padding: 0px 30px;
+    margin: 0;
+    font-size: 50px;
 }
 
 .everydaycategories{
@@ -63,37 +68,79 @@ img{
     padding: 50px 100px;
 }
 
-.bldgallery{
-    display: flex;
-}
-
-.bldgallery > *{
-    flex-grow: 1;
-    flex-basis: 0;
-}
-
-.healthyrecipes{
-    display: flex;
-    flex-direction: column;
-    background-color: #dddddd;
-    padding: 50px 100px;
-}
-
-.healthgallery{
+.gallery{
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
 }
 
-.healthitem{
-    width: 300px;
-    height: 400px;
-    background-color: blue;
-    overflow: hidden; /* Hides overflow */
+.galleryitem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.healthitem > img {
+.galleryitem img{
     width: 100%;
-    height: auto;
-    object-fit: cover; /* Crops the image if necessary */
-    flex-shrink: 0; /* Prevents the image from shrinking */
+    height: 100%;
+    object-fit: cover; 
+}
+
+.galleryitem p{
+    margin: 10px 0 0;
+    padding: 10px;
+}
+
+.blditem{
+    width: 400px; 
+}
+
+.imagewrapper {
+    width: 100%;
+    height: 300px; 
+    overflow: hidden; 
+}
+
+.healthyrecipes {
+    background-color: #d4d4d4; 
+}
+
+.recipeitem {
+    width: 250px; 
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.imagewrapper2 {
+    width: 100%;
+    height: 200px; 
+    overflow: hidden; 
+}
+
+.recipeitem p {
+    background-color: white;
+    font-weight: bold;
+    color: black;
+}
+
+.whereitem{
+    width: 400px;
+}
+
+.imagewrapper3 {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border: 6px solid #d4d4d4;
+}
+
+footer.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FBC116;
+}
+
+h6{
+    font-size: large;
 }
