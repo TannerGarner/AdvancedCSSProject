@@ -66,6 +66,22 @@ p{
     object-position: top;
 }
 
+.bannerimage2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    height: 80vh;
+    padding: 0px;
+}
+
+.heroimage2{
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
 .textoverlay{
     position: absolute;
     bottom: 125px;
