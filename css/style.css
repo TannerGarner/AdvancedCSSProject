@@ -363,16 +363,32 @@ h4{
 }
 
 @media (max-width: 600px){
+    .navbar{
+        padding: 10px;
+    }
+
+    .navbar >a >img{
+        height: 40px;
+    }
+    
     .container h2{
-        font-size: 30px;
+        font-size: 20px;
+    }
+
+    .container h3{
+        font-size: 16px;
+    }
+
+    .container h4{
+        font-size: 14px;
     }
 
     .container p{
-        font-size: 15px;
+        font-size: 16px;
     }
 
-    .container li{
-        font-size: 14px;
+    .navbar li{
+        font-size: 12px;
     }
 
     .gallery{
@@ -387,5 +403,9 @@ h4{
     
     .mobile {
         height: 20vh;
+    }
+
+    .quote{
+        padding: 30px;
     }
 }
